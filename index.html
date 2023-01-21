@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href = "styles.css" rel = "stylesteet" type = "text/css">
+    <title>My CV</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+        }
+        body{
+            background-color: #dbdbdb;
+        }
+        main {
+            width: 794px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 40% 60%;
+            padding: 0px;
+        }
+        #myImage {
+            width: 100%;
+            height: auto;
+        }
+        #imageContainer {
+            margin: 15px;
+            display: inline-block;
+            position: relative;
+            width: 150px; 
+            height: 150px; 
+            overflow: hidden;
+            border-radius: 50%;
+        }
+        .topLeft {
+            text-align: center;
+            background-color: #1e211f;
+            color: #fff;
+            padding-bottom: 11px;
+            height: 300px;
+            max-height: 300px;
+        }
+        .topLeft h1 {
+            font-size: 35px;
+        }
+        .shortBio {
+            margin: 0;
+            background-color: #b1b5b2;
+            text-align: center;
+            height: 300px;
+            max-height: 300px;
+            padding-top: 7px;
+            padding-left: 45px;
+            padding-right: 45px;
+            
+        }
+        .shortBio p {
+            font-size: 20px;
+            padding-top: 40px;
+        }
+        .leftSide{
+            padding-left:50px;
+            padding-right: 50px;
+            background-color: #e8e6e6;
+            margin: 0;
+            padding-top: 50px;
+        }
+        .rightSide{
+            padding-left:50px;
+            padding-right: 50px;
+            background-color: #ededed;
+            margin: 0;
+            padding-top: 50px;
+        }
+        
+        hr{
+            height: 10px;
+            background-color: #000;
+        }
+        a {
+             text-decoration: none;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <main>
+          <!-- Below section is the header of the document -->
+   <!-- Header Will consist of name,image and short bio -->
+    <div>
+        <section id="header">
+       <!-- Below div will be used for name and image -->
+        <div class="topLeft">
+            <div id=imageContainer>
+                <img src="myImage.jpg" id="myImage" alt="Image of Shaun Ndlovu">
+            </div>
+            <div id="nameHeading">
+               <h1>Shaun<br>Ndlovu</h1>                
+            </div>
+            </div>
+            <div class="leftSide">
+            <div id="contact">
+            <p>325 Persimmon Street<br>Malvern, Johannesburg 2094</p>
+            <br>
+            <p>0782803621</p>
+            <br>            
+            <a href="mailto:shaunndlovu2@gmail.com">shaunndlovu2@gmail.com</a>
+            <br>
+            <br>
+            <a href="https://www.linkedin.com/in/shaun-sibusiso-ndlovu-67b57021a/">LinkedIn Profile</a> 
+            <br>
+            <br>           
+        </div>
+        <hr>
+        <div id="skills">
+           <br>
+           <br>
+           <br>
+            <h4><strong>SKILLS AND PROFICIENCIES</strong></h4>
+            <br>
+            <li>Java, HTML, CSS,JavaScript, PHP, SQL,Python, C#</li>
+            <li>Teamwork, Organizational know-how</li>
+            <li>People skills and attention to detail</li>
+            <li> Web development </li>
+            <li> Leadership skills</li>
+        </div>
+        
+        <div id="languages">
+          <br>
+           <h4><strong>LANGUAGES</strong></h4>
+           <br>
+            <li>South African English (Native) </li>
+            <li>Zulu</li>
+            <li>Xhosa</li>
+            <li>Sepedi</li>
+            <li>Ndebele</li>
+        </div>
+            </div>     
+        <br>
+           <br>
+           <br>
+        <!-- Below div will contain short bio -->
+        
+    </section>
+    </div>
+    
+    <div>
+        <div class="shortBio">
+            <p>I am passionate about programming and I find pleasure in problem solving. Through this passion for programming, I believe I can lead and motivate others to become successful and incorruptible, be happy and frugal, live in peace, treat others the same according to notions of fairness and justice, have integrity and be transparent.
+            </p>
+        </div>
+
+        <div class="rightSide">
+            <div>
+            <h2>WORK HISTORY</h2>
+            <br>
+            <h4><strong>Graduate Trainee</strong></h4>
+            <p>FNB South Africa | Jan 2022 - Dec 2022 <br> <br>
+            The duties included observing different employees, taking part in learning opportunities, going to meetings and workshops, traveling to other workplaces to gain experience, analyzing current systems and 
+            proposing new ideas for improvement, bringing a positive energy to the business, and developing long-lasting professional relationships with employees.
+            </p>
+        </div>
+        <div>
+           <br>
+            <h2>EDUCATIONAL BACKGROUND</h2><br>
+            <h4>National Senior Certificate (NSC)</h4>
+            <p>Dawnview High school, Dawnview | 2018 <br> <i> Matriculated</i> </p>
+            <br>
+            <h4>Bachelor of Commerce in Information Systems</h4>
+            <p>University of Johannesburg, APB | 2022 br <i>Graduated with distinction</i></p>
+        </div>
+        </div>
+    </div>
+    </main>
+</body>
+</html>
